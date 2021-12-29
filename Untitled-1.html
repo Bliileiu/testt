@@ -1,0 +1,172 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百度</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+            margin-left: 15px;
+        }
+
+        .news {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .text {
+            background-color: blue;
+            border-radius: 6px;
+            color: cornsilk;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .setting {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-top: -20px;
+        }
+
+        .YLOGO {
+        height: 40%;
+        width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .LOGO {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+        }
+
+        .searchbox {
+            margin-top: 33px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .search {
+            width: 550px;
+            height: 44px;
+            border-radius: 8px 0px 0px 8px;
+            border: 2px solid #999090;
+        }
+
+        #search:hover {
+            outline: none;
+            border-color: dimgrey;
+        }
+
+        input:focus {
+            border: 2px solid rgb(32, 94, 209);
+            outline: none;
+        }
+
+        .enter {
+            width: 108px;
+            height: 44px;
+            border-radius: 0px 8px 8px 0px;
+            border: none;
+            background-color: #2B30E1;
+            color: floralwhite;
+            margin-top: 33px;
+            font-size: large;
+        }
+
+        .fit {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .annotation {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .color {
+            color: gray;
+            font-size: smaller;
+        }
+        body{
+            background-color:  #FFFEFF;
+        }
+        .camera{
+            position: absolute;
+            left: 60%;
+            top: 271px;
+        }
+        .corresponding{
+            width: 100%;
+            height: 56%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        .section{
+            width: 100%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+    <div>
+    <div class="news">
+        <a href="http://news.baidu.com/">新闻</a>
+        <a class="spacing" href="https://www.hao123.com/">hao123</a>
+        <a class="spacing" href="http://map.baidu.com/">地图</a>
+        <a class="spacing" href="about:blank">贴吧</a>
+        <a class="spacing" href="https://haokan.baidu.com/?sfrom=baidu-top">图片</a>
+        <a class="spacing" href="https://pan.baidu.com/?from=1026962h">网盘</a>
+        <a class="spacing" href="https://www.baidu.com/more/">更多</a>
+    </div>
+    <div class="setting"><a class="text"
+            href="https://passport.baidu.com/v2/?reg&tt=1640586056940&overseas=undefined&gid=D763818-06D7-4BE9-A973-7DB291A02453&tpl=mn&u=https%3A%2F%2Fwww.baidu.com%2F">
+            登录 </a>
+        设置
+    </div>
+    <div class="YLOGO">
+        <div class="LOGO">
+            <img src="img\SharedScreens22hot.jpg" alt="img\SharedScreens22hot.jpg">
+        </div>
+    <div class="fit">
+        <span class="searchbox">
+            <div>
+            <input class="search" id="search" type="text">
+            <img class="camera" src="img/相机.png" alt="" width="24px" height="22px">
+            </div>
+        </span>
+        <span>
+            <button class="enter">百度一下</button>
+        </span>
+    </div>
+</div>
+<div class="corresponding">
+    <div class="annotation">
+        <span class="color">关于百度</span>
+        <span class="color">About Baidu</span>
+        <span class="color">使用百度前必读</span>
+        <span class="color">帮助中心</span>
+        <span class="color">京公网安备11000002000001号</span>
+        <span class="color">京ICP证030173号</span>
+        <span class="color">©2021 Baidu</span>
+        <span class="color">互联网药品信息服务资格证书 (京)-经营性-2017-0020</span>
+        <span class="color">信息网络传播视听节目许可证 0110516</span>
+    </div>
+    </div>
+</div>
+</section>
+</body>
+
+</html>
